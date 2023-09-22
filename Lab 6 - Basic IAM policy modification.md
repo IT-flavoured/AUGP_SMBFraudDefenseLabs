@@ -11,10 +11,10 @@
 
 ### *If you do not want to setup the MFA for the XYZ-User, remember to remove the condition requiring MFA from the JSON policy below. Although we suggest testing this condition first, and then modifying the policy to remove it.*
 
-1.  On the left side of the screen, proceed to the **Policies**
-2.  Click **Create policy**
-3.  Click **JSON**
-4.  Copy and paste the JSON policy below into the **Policy editor**
+7.  On the left side of the screen, proceed to the **Policies**
+8.  Click **Create policy**
+9.  Click **JSON**
+10.  Copy and paste the JSON policy below into the **Policy editor**
 
 ```
 {
@@ -50,16 +50,16 @@
 
 ### *Requirement for the Region: “eu-west-1”*
 
-1.  Click **Next**
-2.  Fill the Policy name textbox: **EC2_AllActions_WithConditions**
-3.  **Skip description field** – although it is essential to describe the policy with such a vague name. You can fill this field with the short description above
-4.  Click **Create policy**
-5.  On the left side of the screen, proceed to the **User groups**
-6.  Click on **XYZ-Users** hyperlink
-7.  Click on **Permissions** tab
-8.  Click on **Add permissions** and then **Attach policies**
-9.  Find the recently created policy using the search bar: **XYZ-EC2_AllActions_WithConditions**
-10. **Select checkbox** to the left of the policy and click **Attach policy**
+11.  Click **Next**
+12.  Fill the Policy name textbox: **EC2_AllActions_WithConditions**
+13.  **Skip description field** – although it is essential to describe the policy with such a vague name. You can fill this field with the short description above
+14.  Click **Create policy**
+15.  On the left side of the screen, proceed to the **User groups**
+16.  Click on **XYZ-Users** hyperlink
+17.  Click on **Permissions** tab
+18.  Click on **Add permissions** and then **Attach policies**
+19.  Find the recently created policy using the search bar: **XYZ-EC2_AllActions_WithConditions**
+20. **Select checkbox** to the left of the policy and click **Attach policy**
 
 ### *You can now repeat the steps used to create the EC2 instance using XYZ-Admin user, but while logged in as XYZ-User user.*
 
