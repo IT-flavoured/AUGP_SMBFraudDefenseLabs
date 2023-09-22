@@ -18,49 +18,27 @@
 
 ```
 {
-
-"Version": "2012-10-17",
-
-"Statement": [
-
-{
-
-"Effect": "Allow",
-
-"Action": "ec2:\*",
-
-"Resource": "\*",
-
-"Condition": {
-
-"Bool": {
-
-"aws:MultiFactorAuthPresent": "true"
-
-},
-
-"ForAllValues:StringLike": {
-
-"ec2:InstanceType": [
-
-"t2.\*"
-
-],
-
-"aws:RequestedRegion": [
-
-"eu-west-1"
-
-]
-
-}
-
-}
-
-}
-
-]
-
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "ec2:*",
+            "Resource": "*",
+            "Condition": {
+                "Bool": {
+                    "aws:MultiFactorAuthPresent": "true"
+                },
+                "ForAllValues:StringLike": {
+                    "ec2:InstanceType": [
+                        "t2.*"
+                    ],
+                    "aws:RequestedRegion": [
+                        "eu-west-1"
+                    ]
+                }
+            }
+        }
+    ]
 }
 ```
 
