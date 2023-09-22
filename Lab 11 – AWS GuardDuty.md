@@ -18,10 +18,10 @@
 
 ### *After finishing with the labs, remember to clean up the environment, to prevent unnecessary costs. Services used, for easier cleanup navigation:*
 
-1.  **IAM**
-2.  **EC2**
-3.  **CloudTrail**
-4.  **S3**
-5.  **CloudWatch**
-6.  **Amazon SNS**
-7.  **GuardDuty**
+- **IAM**
+- **EC2**
+- **CloudTrail**
+- **S3**
+- **CloudWatch**
+- **Amazon SNS**
+- **GuardDuty**
