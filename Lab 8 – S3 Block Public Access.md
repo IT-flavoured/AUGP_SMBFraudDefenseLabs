@@ -10,6 +10,6 @@
 
 ### *Additionally, as we are in the S3 console, check the account settings for the public access of S3 data*
 
-1.  On the left side of the screen, proceed to the **Block Public Access settings for this account**
-2.  On the **Block Public Access settings for this account** section, ensure **Block all public access** is **turned On**
+5.  On the left side of the screen, proceed to the **Block Public Access settings for this account**
+6.  On the **Block Public Access settings for this account** section, ensure **Block all public access** is **turned On**
     1.  If it’s **turned Off**, click **Edit**, check **Block all public acce**ss and click **Save Changes**
