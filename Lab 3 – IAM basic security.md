@@ -6,18 +6,18 @@
 
 ### *For an easier use, you can edit the Account Alias. Make sure to save the Sign-in URL for IAM users in this account for the future use.*
 
-1.  On the left side of the screen, proceed to the **Account settings**
-2.  Check the **Password policy** section and click **Edit**
-3.  Choose **Custom** to apply customized password requirements
-4.  According to the best practices:
+4.  On the left side of the screen, proceed to the **Account settings**
+5.  Check the **Password policy** section and click **Edit**
+6.  Choose **Custom** to apply customized password requirements
+7.  According to the best practices:
     1.  Edit **Password minimum length** to 14 or greater
     2.  Edit **Prevent password** **reuse** to 24
 
 ### *Remember that password policy should be aligned with the organizational requirements. Keep the best practices in mind, to ensure security!*
 
-1.  Click **Save changes** after editing the data
-2.  On the left side of the screen, proceed to the **Credential report**
-3.  Click on **Download credentials report** and ensure:
+8.  Click **Save changes** after editing the data
+9.  On the left side of the screen, proceed to the **Credential report**
+10.  Click on **Download credentials report** and ensure:
     1.  Multi-factor authentication (MFA) is enabled for all IAM users that have a console password
     2.  Access keys are not setup during the initial user setup for all IAM users that have a console password
     3.  Access keys are rotated every 90 days or less
