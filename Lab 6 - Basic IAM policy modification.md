@@ -16,10 +16,7 @@
 3.  Click **JSON**
 4.  Copy and paste the JSON policy below into the **Policy editor**
 
-```JSON
-
 ```
-
 {
 
 "Version": "2012-10-17",
@@ -65,6 +62,7 @@
 ]
 
 }
+```
 
 ### *The policy allows using all actions for EC2 service, with conditions:*
 
