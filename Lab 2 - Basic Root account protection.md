@@ -8,7 +8,7 @@
 
 ### *If Root user access keys are being used in the environment, check how they are utilized. Deactivation and deletion of the access key can cause problems in the environment but keeping them is a critical risk!*
 
-1.  Check the **Multi-factor authentication (MFA)** section and ensure the MFA is enforced for the Root user
+4.  Check the **Multi-factor authentication (MFA)** section and ensure the MFA is enforced for the Root user
     1.  If the MFA has not been set up, click **Assign MFA device** and proceed with the instructions
 
 ### *Multi-factor authentication feature requires external device. You can choose from:*
@@ -19,7 +19,7 @@
 
 ### *Hardware TOTP token – Authenticate using a code displayed on a hardware Time-based one-time password (TOTP) token.*
 
-1.  On the navigation bar, choose your account name (top right corner), and then choose **Account.**
-2.  Scroll down to check **the IAM user and role access to Billing information** and check status
+5.  On the navigation bar, choose your account name (top right corner), and then choose **Account.**
+6.  Scroll down to check **the IAM user and role access to Billing information** and check status
     1.  If **Activated**, no action is necessary.
     2.  If **Deactivated**, click **Edit**, check the **Activate IAM Access** checkbox and then click **Update**
