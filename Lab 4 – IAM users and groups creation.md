@@ -22,16 +22,16 @@
 
 ### *(In Retrieve password section you can email sign-in instructions. For lab purposes we will skip this)*
 
-1.  Click **Return to users list** and then **Continue**
+6.  Click **Return to users list** and then **Continue**
     1.  Repeat steps from a to h using user name: **XYZ-User**
 
 ### *For the purposes of this Lab, we are using IAM instead of Identity Center because of the small environment. For the multi-account environments and usage of AWS Organizations, we recommend using Identity Center, formerly known as AWS SSO.*
 
 ### *The password provided and skipping the password reset on the first sign-in is for easier workshop handling. In a regular environment allow users to create their own passwords, that are compliant with the password policy!*
 
-1.  On the left side of the screen, proceed to the **User groups**
-2.  Click on **Create group**
-3.  Proceed with the instructions based on the information below:
+7.  On the left side of the screen, proceed to the **User groups**
+8.  Click on **Create group**
+9.  Proceed with the instructions based on the information below:
     1.  User group name: **XYZ-Administrators**
     2.  Add users to the group: check **XYZ-Admin**
     3.  Attach permissions policies: find on the list and check **AdministratorAccess**
@@ -41,19 +41,19 @@
 
 ### Policies that include \* (asterisk) in the “Allow” section should be monitored closely due to the extensive nature.
 
-1.  Click on **Create group** again
-2.  Proceed with the instructions based on the information below:
+10.  Click on **Create group** again
+11.  Proceed with the instructions based on the information below:
     1.  User group name: **XYZ-Users**
     2.  Add users to the group: check **XYZ-User**
     3.  Attach permissions policies: **skip this section (do not attach any permissions)**
     4.  Click **Create group**
-3.  Click on **Create group** again
-4.  Proceed with the instructions based on the information below:
+12.  Click on **Create group** again
+13.  Proceed with the instructions based on the information below:
     1.  User group name: **XYZ-AllUsers**
     2.  Add users to the group: **check all the users on the list.**
     3.  Attach permissions policies: **skip this section (do not attach any permissions)**
     4.  Click **Create group**
-5.  **Catching up with previous lab:**
+14.  **Catching up with previous lab:**
     1.  In order to check/modify existing user, on the left side of the screen click **Users**
     2.  Select any user (click the hyperlink)
     3.  Click on the **Security credentials** tab
